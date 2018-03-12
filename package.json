@@ -1,0 +1,30 @@
+{
+  "name": "express-github-passport-oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasiliiKuznecov/express-github-passport-oauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasiliiKuznecov/express-github-passport-oauth/issues"
+  },
+  "homepage": "https://github.com/VasiliiKuznecov/express-github-passport-oauth#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "connect-ensure-login": "0.1.1",
+    "cookie-parser": "1.4.3",
+    "express": "4.16.2",
+    "express-session": "1.15.6",
+    "hbs": "4.0.1",
+    "passport": "0.4.0",
+    "passport-github": "1.1.0"
+  }
+}
